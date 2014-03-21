@@ -48,10 +48,12 @@ public class TurnBug extends Bug implements KeyListener, ActionListener
 		if(e.getKeyCode()==39)
 		{
 			right = true;
+			left = false;
 		}
 		if(e.getKeyCode()==37)
 		{
 			left = true;
+			right = false;
 		}
 	}
 	@Override
